@@ -1,0 +1,51 @@
+.title{
+    text-align: center;
+    padding: 20px;
+    color: #2196F3;
+}
+
+.label{
+    font-size: large;
+  
+    color: #c2a8a8;
+}
+.iptEmail,.iptPassword{
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-family: system-ui;
+
+    width: 100%;
+} 
+.link{
+    font-weight: bold;
+    color: #2196F3;
+    text-decoration: none;
+    background-color: rgba(245, 245, 245, 0.29);
+}
+.btnLogin{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    background: #2196F3;
+    margin-top: 10px;
+    
+    
+}
+.pargr{
+    text-align: center;
+    color: gray;
+    font-size: small;
+}
+.bgBtn{
+    text-align: center;
+   
+}
+.allForm{
+    padding: 20px;
+    
+}
+
