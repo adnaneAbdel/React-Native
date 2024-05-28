@@ -33,7 +33,7 @@ const EditProfile = ({ navigation }) => {
     const handleSave = async () => {
         try {
             // Send updated user information to backend with token
-            await axios.put('http://172.20.10.2:3000/api/auth/edit-profile', userInfo, {
+            await axios.put('http://localhost:3000/api/auth/edit-profile', userInfo, {
                 headers: {
                     'x-access-token': token
                 }
