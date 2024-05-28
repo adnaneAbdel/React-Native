@@ -21,7 +21,7 @@ const Profil = ({ navigation}) => {
 
       if (token) {
         // Fetch user data with the token
-        const response = await axios.get('http://172.20.10.2:3000/api/auth/profil', {
+        const response = await axios.get('http://localhost:3000/api/auth/profil', {
           headers: {
             'x-access-token': token
           }
