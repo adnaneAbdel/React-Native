@@ -16,7 +16,7 @@ const Resgiter = () => {
     initialValues={{ name: '', email: '', password: '' }}
     onSubmit={async values => {
       try {
-        const response = await axios.post('http://172.20.10.2:3000/api/auth/register', values);
+        const response = await axios.post('http://localhost:3000/api/auth/register', values);
         console.log(response.data); // Log the response from the server
         // Add logic for handling successful login
         navigation.navigate('Login');
