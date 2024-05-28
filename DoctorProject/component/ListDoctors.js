@@ -11,7 +11,7 @@ const ListDoctors = ({ navigation }) => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get('http://172.20.10.2:3000/api/auth/usersData');
+      const response = await axios.get('http://localhost:3000/api/auth/usersData');
       setDoctors(response.data);
       setFilteredDoctors(response.data);
     } catch (error) {
