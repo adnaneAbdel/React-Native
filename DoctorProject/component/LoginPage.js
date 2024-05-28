@@ -23,7 +23,7 @@ const Login = () => {
   initialValues={{ email: '', password: '' }}
   onSubmit={async values => {
     try {
-      const response = await axios.post('http://172.20.10.2:3000/api/auth/login', values);
+      const response = await axios.post('http://localhost:3000/api/auth/login', values);
       console.log(response.data); // Log the response from the server
       // Handle successful login
       const token = response.data.Data.token;
